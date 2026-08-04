@@ -1,0 +1,14 @@
+{
+  "max_markers": 50,
+  "minimum_marker_distance": 5.0,
+  "compress_unit": true,
+  "logging": "INFO",
+  "death_markers": {
+    "enabled": true,
+    "remove_when_nearby_distance": 5
+  },
+  "allowed_dimensions": {
+    "whitelist": false,
+    "dimensions": []
+  }
+}

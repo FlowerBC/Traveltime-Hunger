@@ -1,0 +1,179 @@
+{
+  "selected_animations": [
+    {
+      "kind": "item",
+      "definition": "PICKAXE",
+      "animations": {
+        "attack": "pack:file/modded swords x punchy! 1.20.1 v1.3.2.zip",
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "mining": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "inspect": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "MACE",
+      "animations": {
+        "attack": "pack:file/modded swords x punchy! 1.0 forge.zip",
+        "falling": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "mining": "pack:file/modded swords x punchy! 1.0 forge.zip",
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SWORD",
+      "animations": {
+        "attack": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "inspect": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "mining": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "falling": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "triggerable": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "AXE",
+      "animations": {
+        "attack": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "mining": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "inspect": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SPEAR",
+      "animations": {
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "inspect": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "triggerable": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "attack": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "spear_charge": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "mining": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "BOW",
+      "animations": {
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "use_bow": "pack:file/hyperpunchy-v2.5+.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "CROSSBOW",
+      "animations": {
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "use_crossbow_shot": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "use_crossbow": "pack:file/hyperpunchy-v2.5+.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FULL_BLOCK",
+      "animations": {
+        "useitem": "pack:file/hyperpunchy-v2.5+.zip",
+        "mining": "pack:file/hyperpunchy-v2.5+.zip",
+        "interaction": "pack:file/hyperpunchy-v2.5+.zip",
+        "inspect": "pack:file/hyperpunchy-v2.5+.zip",
+        "attack": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "HOE",
+      "animations": {
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "attack": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "inspect": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "mining": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SHOVEL",
+      "animations": {
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "attack": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "mining": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "inspect": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "EMPTY_HAND",
+      "animations": {
+        "hand_in": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "hand_out": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "mining": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "useitem": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "inspect": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "attack": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip",
+        "interaction": "pack:file/¡ì5untitled ¡ì6punchies ¡ìfv1.1.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FISHING_ROD",
+      "animations": {
+        "useitem": "pack:file/hyperpunchy-v2.5+.zip",
+        "attack": "pack:file/hyperpunchy-v2.5+.zip",
+        "fishingrod": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FLINT",
+      "animations": {
+        "useitem": "pack:file/hyperpunchy-v2.5+.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SHIELD",
+      "animations": {
+        "use_shield": "pack:punchy:punchy",
+        "attack": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "itemSpecific",
+      "definition": "minecraft:wind_charge",
+      "animations": {
+        "useitem": "pack:file/hyperpunchy-v2.5+.zip",
+        "attack": "pack:file/hyperpunchy-v2.5+.zip",
+        "interaction": "pack:file/hyperpunchy-v2.5+.zip"
+      }
+    }
+  ]
+}

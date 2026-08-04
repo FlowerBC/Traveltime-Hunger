@@ -1,0 +1,203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7784BB3B7A1CB8E2"
+	group: ""
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "7784BB3B7A1CB8E2"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EC485A5427B2332"]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "0FCCB51D5A28CF9B"
+			rewards: [
+				{
+					id: "71C551FCD4325E3B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:swift_sneak"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "628886C353CFCDA7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "deeperdarker:sculk_smite"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "5B5E4E391EEDCBDC"
+				type: "dimension"
+			}]
+			title: "黑不溜秋"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7901F8F2E0CAA4CD"]
+			id: "6EC485A5427B2332"
+			rewards: [{
+				count: 10
+				id: "3F15F03EEDE17FDB"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "7B56CAE6B5F02EA5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "典狱长"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FCCB51D5A28CF9B"]
+			icon: "deeperdarker:sculk_centipede_spawn_egg"
+			id: "2C5AE34AFA5E2078"
+			rewards: [{
+				id: "6786B02E945EBE28"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "26D9DC3F7643B408"
+				type: "kill"
+				value: 1L
+			}]
+			title: "好恶心"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FCCB51D5A28CF9B"]
+			icon: "deeperdarker:angler_fish_spawn_egg"
+			id: "0633209BAEA2AD48"
+			rewards: [
+				{
+					id: "6C39126F23CE1D1E"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03F9275203DCBB0D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:lure"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				entity: "deeperdarker:angler_fish"
+				id: "68C9965DF2F5FFEE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "空军"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FCCB51D5A28CF9B"]
+			icon: "deeperdarker:sludge_spawn_egg"
+			id: "1242F90FB067E72B"
+			rewards: [{
+				id: "658410657E5BAFCB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "7CD12E72D8D6B38F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "蓝色的"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FCCB51D5A28CF9B"]
+			icon: "deeperdarker:shattered_spawn_egg"
+			id: "46DF08885C763C6A"
+			rewards: [{
+				count: 3
+				id: "4FF7CC444B3D5E97"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "399E7B764220414D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "典狱长的儿子？"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FCCB51D5A28CF9B"]
+			icon: "deeperdarker:shriek_worm_spawn_egg"
+			id: "49AD62F1C0C39A33"
+			rewards: [{
+				id: "24C41870E316FE43"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				id: "4165E56DC41057E9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "更恶心了..."
+			x: -0.5d
+			y: -2.5d
+		}
+	]
+	title: "深暗之域"
+}

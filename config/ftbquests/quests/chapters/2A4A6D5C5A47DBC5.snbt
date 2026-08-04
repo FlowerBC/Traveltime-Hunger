@@ -1,0 +1,242 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2A4A6D5C5A47DBC5"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:filled_map"
+		tag: {
+			map: 0
+		}
+	}
+	id: "2A4A6D5C5A47DBC5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["118291DBA67CAC8D"]
+			description: [
+				"哎呀，看来原木不能直接被拆分呢，试试将燧石斧和原木一起放入合成栏吧"
+				"关于物品获取配方等可以通过物品管理器查看"
+				"在物品栏中，将鼠标指针对准你想查询的物品"
+				"按下R，查看来源"
+				"按下U，查看用途"
+			]
+			icon: "minecraft:oak_planks"
+			id: "3AF08874E538BF07"
+			tasks: [{
+				id: "6E450FEB25E6D65E"
+				title: "获取木板"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3AF08874E538BF07"]
+			description: [
+				"你可以利用匠魂制造高度自定义的工具"
+				"前期木制与石制工具已被燧石工具取代，你无法合成它们，但你依然可以在一些宝箱中找到它们"
+				"另外，同样的原材料、同样的工具。如果使用不同的合成方式，产物也有可能不同，请多留意jei的描述"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7CA19A8B73266C65"
+			tasks: [{
+				id: "27B40FB0302E7191"
+				title: "工具"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["118291DBA67CAC8D"]
+			description: ["有点口渴，看来你现在需要水，你可以直接通过右键喝河水和海水，但是我还是建议你把它们烧开"]
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "11D59F027A07DC7A"
+			tasks: [{
+				id: "18F6477890D4C30F"
+				title: "水"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CA19A8B73266C65"]
+			description: [
+				"看来你已经掌握了前期的生存技能，接下来的路就靠你自己走了"
+				"对了，这些物资，希望你能用上"
+			]
+			icon: "legendarysurvivaloverhaul:canteen"
+			id: "510F8DB1502EC1D4"
+			rewards: [{
+				id: "7D1A1B19D3B5A8A7"
+				item: "legendarysurvivaloverhaul:canteen"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77B571B72B37A4BB"
+				title: "启程"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["118291DBA67CAC8D"]
+			description: [
+				"随着旅行的进行，你发现不同地区的温差有点大"
+				"哦，似乎季节也在变化"
+				"所以，做好防护吧~"
+			]
+			icon: "minecraft:grass_block"
+			id: "767DBEF615B08018"
+			tasks: [{
+				id: "2BBE5A63FD1B46BF"
+				title: "气候"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["118291DBA67CAC8D"]
+			description: [
+				"现在，受伤会影响到肢体，引发一些debuff"
+				"注意留意你的困意，它显示在屏幕右下角，当你的困意高于20时，你才可以睡觉（白天也能睡觉）。现在，睡觉会加快时间流逝，此时你的熔炉等方块及红石机器会加快工作，不过，建议你找一个安全的地方睡觉。"
+				"清晨会自动醒来，当然，你也可以shift并右键床来使用原版的睡觉方式"
+			]
+			icon: "minecraft:apple"
+			id: "464FBA32D19C10CB"
+			tasks: [{
+				id: "088BC128CAE97BDB"
+				title: "健康"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"或许你已经发现了，你无法空手砍树；"
+				"空手砍树是不合理的，你需要制作燧石斧；"
+				"燧石斧需要木棍，燧石碎片，植物线；"
+				"1.木棍："
+				"通过破坏树叶，小概率掉落；"
+				"2.燧石碎片："
+				"通过挖掘砂砾小概率掉落燧石，寻找硬物（如：圆石），手持燧石右键硬物可以敲击，概率获得燧石碎片；"
+				"3.植物线："
+				"你需要先用燧石碎片和木棍合成燧石小刀，用燧石小刀破坏草，概率掉落植物纤维，三个植物纤维可以合成一个植物线；"
+			]
+			id: "118291DBA67CAC8D"
+			tasks: [{
+				id: "74364E8442E510FA"
+				title: "我该做什么"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["118291DBA67CAC8D"]
+			description: [
+				"对你种下的已成熟的农作物右键可以收获"
+				"花、火把、灯笼也可以直接右键采集"
+				"左键只会破坏它们"
+			]
+			icon: "minecraft:sweet_berries"
+			id: "4320786E34917795"
+			tasks: [{
+				id: "31B625097EF31B0F"
+				title: "作物采集"
+				type: "checkmark"
+			}]
+			title: "采集"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["118291DBA67CAC8D"]
+			description: ["你可以放置多张床并设置多个重生点，当最近设置的重生点(床)被摧毁时，会启用上一个重生点。"]
+			icon: "minecraft:red_bed"
+			id: "07EB6F925D63037E"
+			tasks: [{
+				id: "396804652B3D9FA3"
+				title: "重生"
+				type: "checkmark"
+			}]
+			title: "重生点"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07EB6F925D63037E"]
+			description: [
+				"任何标示着“文明痕迹”的方块，例如床、各种工作台+照明灯具、信标等，组合在一起时都会产生非常强力的退怪效果。基地规模越大，保护范围越夸张。"
+				"该设定会检查每个怪物刷新点周围的有效方块，并计算出相应的文明分数。"
+				"定居并发展："
+				"一个繁荣的大型城市最多可带来约 90 米宽的“护城河”；"
+				"帝国的衰落："
+				"离开你的建筑过久会导致文明的自然衰落，怪物可能在更近的位置（甚至内部空旷暗区）刷出；不过，一个真正的帝国仍然拥有约 40 米宽的和平城郊；"
+				"火柴盒也是温柔乡："
+				"一个孤零零的火柴盒无法像城堡一样强行退敌，但仍能在一定程度上护你周全。"
+				"觉得你的基地太过于安全了，想要寻点刺激？放置怪物头颅可以呼唤对应的怪物们响应号召。怪物头越多，聚怪针对性就越强——通过头颅的精准配比，你甚至可以打造属于自己的数控机床。"
+				"文明声呐："
+				"用声呐扫描当地的文明水平。随身携带便携探测器（指南针+绿宝石），或在放置钟 + 磁石，获得更远、更猛的固定式扫描。"
+				"不死祭坛："
+				"在高文明区域搭建祭坛并用图腾激活后，可获得一次性的“应急重生点”。当你本该死亡时，会被瞬移回祭坛并触发图腾式复苏效果（生命恢复、伤害吸收、抗火），且不消耗手中图腾。"
+			]
+			icon: "minecraft:book"
+			id: "04072C366C8D493C"
+			tasks: [{
+				id: "5D6DACCEADE18536"
+				title: "文明"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07EB6F925D63037E"]
+			description: [
+				"按下‘~’在原地留下标记"
+				"对准标记按住‘~’并使用鼠标滚轮来切换标记的基础样式"
+				"手持物品对准标记按住‘~’并按鼠标中键来自定义标记样式"
+				"手持染料对准标记按住‘~’并右键来切换标记颜色"
+				"按‘M’来切换标记可见性"
+				"按住‘~’并对准标记左键来取消标记"
+				"死亡会默认留下一个标记"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:filled_map"
+				tag: {
+					map: 0
+				}
+			}
+			id: "521D363E0737A831"
+			tasks: [{
+				id: "074D9DB3C33509F3"
+				title: "标记地点"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+	]
+	title: "游玩教程"
+}

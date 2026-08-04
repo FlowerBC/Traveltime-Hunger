@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2CE026D7CF1DD2E2"
+	group: ""
+	id: "2CE026D7CF1DD2E2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"该整合包由B站：磁钢百合制作"
+			"其他贡献者：阿元颜月（B站）、你汤没了（B站）、枫声水起（B站）"
+			"如果第一次游玩或未玩过RLcraft，请阅读游玩教程"
+			"该包定位偏硬核，适合想要入坑硬核玩法的玩家过渡"
+		]
+		id: "069C24F54735D3C2"
+		tasks: [{
+			id: "2C34B37E134BA0EC"
+			title: "关于"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "游玩须知"
+}

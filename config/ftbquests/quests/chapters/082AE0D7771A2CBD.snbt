@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "082AE0D7771A2CBD"
+	group: ""
+	icon: "minecraft:end_stone"
+	id: "082AE0D7771A2CBD"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7901F8F2E0CAA4CD"]
+			icon: "minecraft:end_portal_frame"
+			id: "4D66A204891ED6E1"
+			rewards: [
+				{
+					count: 3
+					id: "10DFCC3870BEAFFA"
+					item: "legendarysurvivaloverhaul:medkit"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2E1D50E966A7F171"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "legendarysurvivaloverhaul:temperature_immunity_long"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "1F32BFF24B047158"
+				type: "dimension"
+			}]
+			title: "终点？"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D66A204891ED6E1"]
+			icon: "minecraft:dragon_head"
+			id: "2752462353EE2600"
+			rewards: [{
+				id: "47598F3E47836153"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "06B84890A21AD826"
+				type: "kill"
+				value: 1L
+			}]
+			title: "解放者"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2752462353EE2600"]
+			icon: "minecraft:dragon_head"
+			id: "19D81DB8906C430E"
+			rewards: [{
+				id: "387A4D923EC349BB"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "485242E67BA69C5C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "再次解放"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D66A204891ED6E1"]
+			icon: "minecraft:purpur_pillar"
+			id: "789BD6BEB972DEC5"
+			rewards: [{
+				count: 4
+				id: "5038C7EFF235BEBF"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3B406EC4488310D5"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "你在找鞘翅，对吧"
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "末地"
+}

@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "23992198C5557480"
+	group: ""
+	icon: "aether:aether_portal_frame"
+	id: "23992198C5557480"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7901F8F2E0CAA4CD"]
+			icon: "aether:aether_portal_frame"
+			id: "7788CE1DCEE8EB44"
+			rewards: [{
+				count: 3
+				id: "60A42C56BC9600F8"
+				item: "tconstruct:cobalt_block"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "3D38E70B0F26D617"
+				type: "dimension"
+			}]
+			title: "童年的幻想"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "221541A8EF9F33AF"
+			rewards: [
+				{
+					id: "17A87B45FF6E3E2E"
+					item: {
+						Count: 1
+						id: "lost_aether_content:shield_of_emile"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CF1CA783C4FCFAD"
+					item: {
+						Count: 1
+						id: "lost_aether_content:gravitite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "aethermobs:crystalitegolem"
+				id: "19A090FAD6E2AD9E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "5F0B941347E4F2FE"
+			rewards: [{
+				count: 10
+				id: "4F7BD299094879E3"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "062FD866700C3BBE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "613882F895D0E29B"
+			rewards: [
+				{
+					id: "00D375B7059B79C5"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23BC8CCD98478756"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "lost_aether_content:aerwhale_king"
+				id: "44CB1484E012200E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "28A6E3C6563A425F"
+			rewards: [
+				{
+					id: "2CD90472AE4C20AC"
+					item: {
+						Count: 1
+						id: "tconstruct:plate_chestplate"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:obsidian"
+								"tconstruct:obsidian"
+							]
+							tic_modifiers: [{
+								level: 2
+								name: "tconstruct:blast_protection"
+							}]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:armor": 5.0f
+								"tconstruct:durability": 176.0f
+								"tconstruct:knockback_resistance": 0.15f
+							}
+							tic_volatile_data: {
+								defense: 3
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BF2E4C4C4BD2FC2"
+					item: {
+						Count: 1
+						id: "aether:obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "aethermobs:spirit"
+				id: "2581156DE1359EBD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "1D972A05E1E84682"
+			rewards: [{
+				id: "64CA1C70F47A6821"
+				item: {
+					Count: 1
+					id: "lost_aether_content:agility_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "44A0B952CBE4FCA4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "2E16FDC9F40E22CC"
+			rewards: [{
+				id: "3C2E46F0D5E5D3F9"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "aether:slider"
+				id: "18510224AB4ACCDC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "24A53E0AC36F610E"
+			rewards: [{
+				id: "364CC5BCED9AC24F"
+				item: "twilightforest:fiery_block"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "aethermobs:aetherdragonphase_2"
+				id: "34D10C7A4788DC33"
+				type: "kill"
+				value: 1L
+			}]
+			title: "击杀：1x天境龙"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "3B0E8BD067AE801B"
+			rewards: [{
+				id: "1A94973BCA1C452B"
+				item: {
+					Count: 1
+					id: "tconstruct:longbow"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:cinderslime"
+							"tconstruct:cinderslime"
+							"tconstruct:cinderslime"
+							"tconstruct:string"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tconstruct:tank_handler"
+							}
+							{
+								level: 3
+								name: "tconstruct:overslime"
+							}
+							{
+								level: 3
+								name: "tconstruct:overburn"
+							}
+							{
+								level: 1
+								name: "tconstruct:stringy"
+							}
+						]
+						tic_multipliers: {
+							"tconstruct:durability": 1.5f
+						}
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:accuracy": 1.0f
+							"tconstruct:attack_damage": 2.25f
+							"tconstruct:draw_speed": 0.6f
+							"tconstruct:durability": 4611.6f
+							"tconstruct:overslime": 75.0f
+							"tconstruct:tank_capacity": 1000.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							"tconstruct:total_tanks": 1
+							upgrades: 2
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "aethermobs:eldershulker"
+				id: "525C7C5E21B00AB1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "4F437A05CCFD2255"
+			rewards: [{
+				id: "7380236B656D2279"
+				item: {
+					Count: 1
+					id: "lost_aether_content:invincibility_gem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "aethermobs:aether_naga"
+				id: "10EEEE767F28442D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7788CE1DCEE8EB44"]
+			id: "224E2B5104E90444"
+			rewards: [{
+				id: "34A1D2C538984828"
+				item: {
+					Count: 1
+					id: "lost_aether_content:phoenix_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "aethermobs:saltcrabking"
+				id: "3DF3C08452F38100"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+	]
+	title: "天境"
+}

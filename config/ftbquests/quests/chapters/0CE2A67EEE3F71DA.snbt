@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0CE2A67EEE3F71DA"
+	group: ""
+	icon: "minecraft:netherrack"
+	id: "0CE2A67EEE3F71DA"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7901F8F2E0CAA4CD"]
+			id: "343A5ADD6CE47748"
+			rewards: [{
+				count: 4
+				id: "47764A23FD461D88"
+				item: "legendarysurvivaloverhaul:cooling_coat_1"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "36E026F3648A50FA"
+				type: "dimension"
+			}]
+			title: "“热情难却”"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["343A5ADD6CE47748"]
+			id: "7EA9A0F92A8A497A"
+			rewards: [{
+				id: "00C8DC8E82D15EA0"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "77E16113F6EA88E6"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "大火杆"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["343A5ADD6CE47748"]
+			id: "0C11AB37C4D40486"
+			rewards: [
+				{
+					count: 2
+					id: "4E488392BA8E1561"
+					item: "spartanweaponry:blaze_head"
+					type: "item"
+				}
+				{
+					id: "1A0AAC28713C072D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "27B89404DC0A7DB4"
+				item: "spartanweaponry:blaze_head"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["343A5ADD6CE47748"]
+			id: "114CFE07C597F7EA"
+			rewards: [{
+				count: 4
+				id: "4E83E6D7BC15306F"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			shape: "netheritetier"
+			tasks: [{
+				id: "54E9954CBCC71D2E"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "巧克力"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["343A5ADD6CE47748"]
+			icon: "alexsmobs:spawn_egg_crimson_mosquito"
+			id: "4380EB4BE43CD7C7"
+			rewards: [{
+				count: 10
+				id: "00C162B47949DC3D"
+				item: "legendarysurvivaloverhaul:bandage"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				id: "26E9FD68E6C4404B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "抱脸虫"
+			x: 4.0d
+			y: -2.0d
+		}
+	]
+	title: "下界"
+}

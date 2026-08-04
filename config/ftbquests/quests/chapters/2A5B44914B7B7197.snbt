@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2A5B44914B7B7197"
+	group: ""
+	icon: "ftbquests:book"
+	id: "2A5B44914B7B7197"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"勾选此项会降低游戏难度"
+				"请谨慎勾选"
+				"勾选后你将能够领取任务奖励"
+			]
+			id: "7901F8F2E0CAA4CD"
+			shape: "netheritetier"
+			tasks: [{
+				id: "3C6FDD39CCC90F5A"
+				title: "勾选解锁全任务"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7901F8F2E0CAA4CD"]
+			id: "3A851598E31D5DB8"
+			rewards: [{
+				command: "/gamerule keepInventory false"
+				id: "1E0227A7AE418DBE"
+				type: "command"
+			}]
+			shape: "diamondtier"
+			tasks: [{
+				id: "57F7BC6B1833FA1F"
+				title: "关闭死亡不掉落"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7901F8F2E0CAA4CD"]
+			id: "476F4DEE26FF685E"
+			rewards: [{
+				command: "/gamerule keepInventory true"
+				id: "6D3C4735E16A5A00"
+				type: "command"
+			}]
+			shape: "diamondtier"
+			tasks: [{
+				id: "362C13C87C50AFE3"
+				title: "开启死亡不掉落"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+	]
+	title: "解锁全任务"
+}

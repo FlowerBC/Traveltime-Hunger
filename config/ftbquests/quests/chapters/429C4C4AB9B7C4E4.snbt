@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "429C4C4AB9B7C4E4"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:netherite_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "429C4C4AB9B7C4E4"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7901F8F2E0CAA4CD"]
+			description: ["需要解锁全任务"]
+			id: "29C3C77576E7EF5D"
+			shape: "goldtier"
+			tasks: [{
+				id: "6B3909BD7086B905"
+				title: "二次解锁"
+				type: "checkmark"
+			}]
+			title: "开启挑战"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			icon: "minecraft:zombie_head"
+			id: "45547FDCC682F0DA"
+			rewards: [{
+				count: 3
+				id: "01407D6E0B8B756B"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "04B3F191C60771E9"
+				type: "kill"
+				value: 100L
+			}]
+			title: "僵尸杀手"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			icon: "minecraft:skeleton_skull"
+			id: "02872B6F31D84531"
+			rewards: [
+				{
+					id: "14F85614A1467E10"
+					item: {
+						Count: 1
+						id: "spartantwilight:knightmetal_longbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DAD97D0D5A16F84"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "7C0628A856516F2E"
+				type: "kill"
+				value: 150L
+			}]
+			title: "解决狙击手"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "364D204E5DB0D824"
+			rewards: [{
+				count: 5
+				id: "7E19B4EB083821EA"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "7BAF53A1D173EC54"
+				type: "kill"
+				value: 50L
+			}]
+			title: "黑鬼"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			id: "65F05D9B58E54460"
+			rewards: [
+				{
+					id: "42033E67AD3EE000"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60C456BA3AFA3541"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B33A14391038162"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "1B122E30CA2A1ADE"
+				type: "kill"
+				value: 5L
+			}]
+			title: "谁才是怪物"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			id: "4969957363604E11"
+			rewards: [
+				{
+					id: "04A2E45EBECEFDD6"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1ADE3B1FA59877E8"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "5CC77F4288A6FD58"
+				type: "kill"
+				value: 3L
+			}]
+			title: "杀这么多干什么"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			icon: "minecraft:dragon_head"
+			id: "1C38FD8F3D2F5EFB"
+			rewards: [{
+				count: 24
+				id: "7015684BFA1A573D"
+				item: "tconstruct:manyullyn_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "17FB6E8BAA31AFD3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "屠龙高手"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			icon: "minecraft:creeper_head"
+			id: "2F9300A9F2D137CD"
+			rewards: [
+				{
+					id: "5951B3155275E0E2"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 128
+					id: "328F629D3D347DA3"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "2A89BE36D32C7108"
+				type: "kill"
+				value: 60L
+			}]
+			title: "火药短缺"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			id: "543B8A4C9EBBC3B1"
+			rewards: [{
+				id: "6ACC0286E5EF07DB"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				id: "200042E24B39ACD5"
+				type: "kill"
+				value: 50L
+			}]
+			title: "你只会搭高三格"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2004F75F94806737"
+			rewards: [{
+				count: 6
+				id: "1C15C70DF7DF0A2D"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "guardvillagers:guard"
+				id: "27B4A61715F283DD"
+				type: "kill"
+				value: 100L
+			}]
+			title: "辞退保安"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29C3C77576E7EF5D"]
+			id: "15A8E07CFB9A6B0B"
+			rewards: [{
+				id: "7F70099706D44A62"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+			tasks: [{
+				count: 32L
+				id: "63E0F088072D46E8"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "批发"
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	title: "挑战"
+}

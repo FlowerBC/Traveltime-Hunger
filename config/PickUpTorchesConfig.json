@@ -1,0 +1,20 @@
+{
+  "requireEmptyHand": false,
+  "disableHoldingAnimation": false,
+  "disablePickAnimation": false,
+  "disableFlowerPickup": false,
+  "disableMushroomPickup": false,
+  -EnableKeywordDetection: true = search block ID for keywords to auto-allow pick-up
+  "enableKeywordDetection": true,
+  -Keywords: Keywords checked in a block¡¯s ID; if any match, the block is pick-up-able unless black-listed
+  "keywords": [
+    "torch",
+    "lantern",
+    "flower",
+    "mushroom"
+  ],
+  -Whitelist: list of exact block IDs (modid:block) that are ALWAYS pick-up-able
+  "whitelist": [],
+  -Blacklist: list of exact block IDs that are NEVER pick-up-able (overrides keywords)
+  "blacklist": []
+}

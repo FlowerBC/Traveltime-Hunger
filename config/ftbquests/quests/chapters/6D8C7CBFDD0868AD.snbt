@@ -1,0 +1,291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6D8C7CBFDD0868AD"
+	group: ""
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "6D8C7CBFDD0868AD"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7901F8F2E0CAA4CD"]
+			id: "7EB5523B382CE1D1"
+			rewards: [{
+				id: "6DA909F225933355"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "15EB97D9CA782850"
+				type: "dimension"
+			}]
+			title: "该睡觉了"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7EB5523B382CE1D1"]
+			icon: "twilightforest:naga_trophy"
+			id: "4FF11B4DA2402C86"
+			rewards: [{
+				count: 6
+				id: "617080596ECEC1FB"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "5DA1AB3C658C1D16"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FF11B4DA2402C86"]
+			icon: "twilightforest:lich_trophy"
+			id: "2EFF8F0C5CF9D58A"
+			rewards: [{
+				id: "06F7FDB549A127D3"
+				item: {
+					Count: 1
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "woodtier"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "2E2D9C8914A9353B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EFF8F0C5CF9D58A"]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "4B136278EDD55533"
+			rewards: [
+				{
+					id: "5EC42F3BB5C2DEC3"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D802B9158C2B6A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "irontier"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "1907005BF32EB453"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EFF8F0C5CF9D58A"]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "73E374126759D588"
+			rewards: [
+				{
+					id: "3857CF1CAF3E0ABF"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "285D07EBAE6249E7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "irontier"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "56F76185252BBBCB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EFF8F0C5CF9D58A"]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "4E96EB3DC6C74BDD"
+			rewards: [
+				{
+					id: "6904C051FB214106"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:knockback"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78079C498EFA8D27"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "irontier"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "1E73FEA69B71301C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B136278EDD55533"]
+			icon: "twilightforest:hydra_trophy"
+			id: "124C95439FD9A5A6"
+			rewards: [{
+				count: 16
+				id: "595EDD60505E0F08"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "goldtier"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "501DBDB83460D33A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73E374126759D588"]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "1F040ED43A026AD3"
+			rewards: [{
+				id: "7CE5717512407F8B"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "goldtier"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "7D7648A7D56604AF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E96EB3DC6C74BDD"]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "1280E850BC63B07F"
+			rewards: [{
+				count: 2
+				id: "07A487E307A285F0"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "goldtier"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "49F3CF185022799B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"124C95439FD9A5A6"
+				"1F040ED43A026AD3"
+				"1280E850BC63B07F"
+			]
+			icon: "twilightforest:troll_spawn_egg"
+			id: "54FD897D1C99BB17"
+			rewards: [{
+				count: 10
+				id: "027FC368B794F9A4"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "diamondtier"
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "09C5206B95245ACC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["54FD897D1C99BB17"]
+			icon: "minecraft:player_head"
+			id: "11C90A4AB930E6AE"
+			rewards: [{
+				id: "78B0043099C87928"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			shape: "netheritetier"
+			tasks: [{
+				entity: "minecraft:giant"
+				id: "4C50E5FD1653859C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+	]
+	title: "暮色森林"
+}

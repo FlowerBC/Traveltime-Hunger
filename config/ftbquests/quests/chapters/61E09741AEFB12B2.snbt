@@ -1,0 +1,253 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "61E09741AEFB12B2"
+	group: ""
+	icon: "tconstruct:smeltery_controller"
+	id: "61E09741AEFB12B2"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7901F8F2E0CAA4CD"]
+			id: "52115E43F1CC9437"
+			rewards: [
+				{
+					id: "4720EB58092FAB4B"
+					item: "tconstruct:materials_and_you"
+					type: "item"
+				}
+				{
+					id: "55E1ABD87E815615"
+					item: "tconstruct:tinkers_gadgetry"
+					type: "item"
+				}
+				{
+					id: "0A90EAAD79DC66C2"
+					item: "tconstruct:puny_smelting"
+					type: "item"
+				}
+				{
+					id: "6F9B4E3008B66F6D"
+					item: "tconstruct:mighty_smelting"
+					type: "item"
+				}
+				{
+					id: "7FC38F597CC4EC3D"
+					item: "tconstruct:fantastic_foundry"
+					type: "item"
+				}
+				{
+					id: "574EC9EE5AD1D174"
+					item: "tconstruct:encyclopedia"
+					type: "item"
+				}
+			]
+			shape: "goldtier"
+			tasks: [{
+				id: "62D719668652EBB4"
+				title: "二级解锁"
+				type: "checkmark"
+			}]
+			title: "初来乍到"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52115E43F1CC9437"]
+			id: "640A885598343281"
+			rewards: [{
+				count: 32
+				id: "142214BED98418A9"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E453BCF557188E"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			title: "基础材料"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52115E43F1CC9437"]
+			id: "37F36B75216DC5FF"
+			rewards: [{
+				id: "36155AB4578065BA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "71D9E75211EB9B15"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			title: "匠魂初探"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"37F36B75216DC5FF"
+				"640A885598343281"
+			]
+			id: "5A1E120483C3635C"
+			rewards: [
+				{
+					id: "480C6C8123EC313F"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "0EE483E084F3D960"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "5AAB2598ADF6D6FC"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2EBC3EFD9F84891B"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AA0891E02A13132"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			title: "初级熔炼"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A1E120483C3635C"]
+			id: "2AC9E3AE8C48DBE4"
+			rewards: [{
+				count: 16
+				id: "68D5F8AA67AFCBD7"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D57B9AFE0D7A42F"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			title: "更大些"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AC9E3AE8C48DBE4"]
+			id: "3C6C7ACCB6620B74"
+			rewards: [{
+				count: 32
+				id: "6A75E009A40F09B1"
+				item: "tconstruct:nether_grout"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BEA0BC6CC65DE04"
+				item: "tconstruct:nether_grout"
+				type: "item"
+			}]
+			title: "做大做强"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52115E43F1CC9437"]
+			id: "24567BC594B16C29"
+			rewards: [{
+				count: 16
+				id: "6B8C08DE5DD29417"
+				item: "tconstruct:raw_cobalt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37913E0382307867"
+				item: "tconstruct:raw_cobalt"
+				type: "item"
+			}]
+			title: "钴钴嘎嘎"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52115E43F1CC9437"]
+			id: "15C39B1C3566B556"
+			rewards: [{
+				id: "1594CA17E551694B"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:queens_slime"
+							"tconstruct:queens_slime"
+							"tconstruct:queens_slime"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:overslime"
+							}
+							{
+								level: 1
+								name: "tconstruct:pierce"
+							}
+							{
+								level: 3
+								name: "tconstruct:overlord"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 2.85f
+							"tconstruct:attack_speed": 1.14f
+							"tconstruct:durability": 1225.1249f
+							"tconstruct:harvest_tier": "minecraft:netherite"
+							"tconstruct:mining_speed": 5.3999996f
+							"tconstruct:overslime": 718.25f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1DFE7EE73B699DCD"
+					item: "tconstruct:sky_slime_ball"
+					type: "item"
+				}
+				{
+					id: "40A1D2635BED6D17"
+					item: "tconstruct:ichor_slime_ball"
+					type: "item"
+				}
+				{
+					id: "6AD927BDB029152C"
+					item: "tconstruct:ender_slime_ball"
+					type: "item"
+				}
+			]
+			title: "奇奇怪怪的史莱姆"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "匠魂"
+}
