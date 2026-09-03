@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "logReceivedMessages": false,
+  "logSuppressedMessages": true,
+  "rules": [
+    {
+      "label": "hide_fill_success",
+      "enabled": true,
+      "caseSensitive": false,
+      "contains": "已成功填充",
+      "startsWith": "",
+      "containsAll": []
+    },
+    {
+      "label": "hide_fill_success_short",
+      "enabled": true,
+      "caseSensitive": false,
+      "contains": "已填充",
+      "startsWith": "",
+      "containsAll": []
+    },
+    {
+      "label": "hide_fill_en",
+      "enabled": true,
+      "caseSensitive": false,
+      "contains": "Filled ",
+      "startsWith": "",
+      "containsAll": []
+    }
+  ]
+}
