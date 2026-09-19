@@ -1,14 +1,3 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: 3785dee4f8964e16194bc3b5f7f3ab84_b008c75bb3c811f1b3c552540024e231
-    ReservedCode1: sviv0pKJMAFYe1UQfNqA9AEnTZsys4jN7PHB75kgLpduvrTyJ73iSeALBfDQCAzNNLyTUPGU4os17PXeOdO3Q7BAsbJlcON7U2OaBj/OcyVdR4v74VBJB0fEyYVeJEvndqPEkgUx6dK0VlcUapK0mjtaOPwlLLiEtpu5c+fCRa9HvQCafK5NeRYmdLA=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: 3785dee4f8964e16194bc3b5f7f3ab84_b008c75bb3c811f1b3c552540024e231
-    ReservedCode2: sviv0pKJMAFYe1UQfNqA9AEnTZsys4jN7PHB75kgLpduvrTyJ73iSeALBfDQCAzNNLyTUPGU4os17PXeOdO3Q7BAsbJlcON7U2OaBj/OcyVdR4v74VBJB0fEyYVeJEvndqPEkgUx6dK0VlcUapK0mjtaOPwlLLiEtpu5c+fCRa9HvQCafK5NeRYmdLA=
----
-
 ## 简介
 《旅行时光：饥饿》是一款中型 Minecraft Java 版整合包，整体难度较高，定位为 **偏硬核生存向**。包含 200+ 模组，围绕生存挑战、维度探索、饮食烹饪、战斗装备四条主线展开，适合想要体验硬核玩法但又了解不深的玩家，可作为向更高难度整合包过渡的入门选择。
 
@@ -90,4 +79,3 @@ AIGC:
 **许可证**
 - 本仓库自制内容采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans)（署名-非商业性使用-禁止演绎），版权归磁钢百合所有。
 - 仓库引用的第三方组件版权归其原作者所有，请遵守各组件自身的许可协议。
-*（内容由AI生成，仅供参考）*
